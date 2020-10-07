@@ -1,0 +1,151 @@
+header {
+  width: 100%;
+  padding: 0.5em 0;
+  box-shadow: 0px 2px 5px black;
+}
+
+.navigation,
+.navbar,
+.nav-links {
+  width: 100%;
+  height: 100%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-logo {
+  display: none;
+  max-width: 200px;
+  //   background: #000;
+
+  img {
+    width: 140px;
+  }
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  padding-top: 0%;
+  margin-top: 0%;
+  position: relative;
+}
+
+.nav-link a {
+  height: 100%;
+  padding: 2em 1em;
+  color: $darkTxt;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.nav-logo {
+  margin: 0%;
+  padding: 0%;
+  width: 140px;
+  transform: translateX(-15px);
+}
+
+// Products list
+#products-link {
+  position: relative;
+}
+.nav-links {
+  .products-list {
+    position: absolute;
+    top: 0;
+    width: max-content;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s ease;
+  }
+
+  .products-list-active {
+    opacity: 1;
+    top: 4.5em;
+    pointer-events: all;
+
+    li {
+      margin-bottom: 0.6em;
+      //   cursor: pointer;
+    }
+
+    a {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+  }
+}
+
+.nav-links-active {
+  .nav-link {
+    transition: margin 0.3s ease;
+  }
+
+  .products-list {
+    opacity: 0;
+    top: 0;
+    left: 50%;
+    transform: translateX(-48%);
+    pointer-events: none;
+    text-align: center;
+    a {
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+  }
+  .products-list-active {
+    opacity: 1;
+    top: 2.5em;
+    pointer-events: all;
+  }
+
+  .make-room {
+    margin-bottom: 4em;
+  }
+}
+
+.hamburger {
+  display: none;
+  min-width: 60px;
+  min-width: 60px;
+  width: 70px;
+  height: 70px;
+  z-index: 50;
+  cursor: pointer;
+}
+
+.line {
+  width: 100%;
+  height: 6px;
+  background: $darkTxt;
+  border-radius: 6px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+$x_offset: 10px;
+$y_offset: 15.5px;
+$angle: 44deg;
+
+.line1.toggler {
+  transform: rotate(-$angle) translate(-$x_offset, $y_offset);
+}
+.line2.toggler {
+  opacity: 0;
+  display: inline;
+}
+.line3.toggler {
+  transform: rotate($angle) translate(-$x_offset, -$y_offset);
+}
+.line.toggler {
+  background-color: $lightTxt;
+}
