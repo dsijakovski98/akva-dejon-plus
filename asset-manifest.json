@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/akva-dejon-plus/static/css/main.8ad5efa3.chunk.css",
-    "main.js": "/akva-dejon-plus/static/js/main.7514a947.chunk.js",
-    "main.js.map": "/akva-dejon-plus/static/js/main.7514a947.chunk.js.map",
+    "main.css": "/akva-dejon-plus/static/css/main.13253961.chunk.css",
+    "main.js": "/akva-dejon-plus/static/js/main.0db45793.chunk.js",
+    "main.js.map": "/akva-dejon-plus/static/js/main.0db45793.chunk.js.map",
     "runtime-main.js": "/akva-dejon-plus/static/js/runtime-main.93553d34.js",
     "runtime-main.js.map": "/akva-dejon-plus/static/js/runtime-main.93553d34.js.map",
     "static/js/2.a7494ab8.chunk.js": "/akva-dejon-plus/static/js/2.a7494ab8.chunk.js",
     "static/js/2.a7494ab8.chunk.js.map": "/akva-dejon-plus/static/js/2.a7494ab8.chunk.js.map",
     "index.html": "/akva-dejon-plus/index.html",
-    "precache-manifest.ad0d6f5b74578a491371a9fa88852a30.js": "/akva-dejon-plus/precache-manifest.ad0d6f5b74578a491371a9fa88852a30.js",
+    "precache-manifest.dbe17818a2db972e0bcf9b3fff831c67.js": "/akva-dejon-plus/precache-manifest.dbe17818a2db972e0bcf9b3fff831c67.js",
     "service-worker.js": "/akva-dejon-plus/service-worker.js",
-    "static/css/main.8ad5efa3.chunk.css.map": "/akva-dejon-plus/static/css/main.8ad5efa3.chunk.css.map",
+    "static/css/main.13253961.chunk.css.map": "/akva-dejon-plus/static/css/main.13253961.chunk.css.map",
     "static/js/2.a7494ab8.chunk.js.LICENSE.txt": "/akva-dejon-plus/static/js/2.a7494ab8.chunk.js.LICENSE.txt",
     "static/media/akva-dejon-logo-transparent.png": "/akva-dejon-plus/static/media/akva-dejon-logo-transparent.cfb9db0b.png",
     "static/media/index.css": "/akva-dejon-plus/static/media/body-bg.a7b05a70.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.93553d34.js",
     "static/js/2.a7494ab8.chunk.js",
-    "static/css/main.8ad5efa3.chunk.css",
-    "static/js/main.7514a947.chunk.js"
+    "static/css/main.13253961.chunk.css",
+    "static/js/main.0db45793.chunk.js"
   ]
 }
