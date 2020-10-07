@@ -57,7 +57,7 @@ function Navbar() {
             <ul className="nav-links" ref={navLinksRef}>
               <NavLink location="/akva-dejon-plus/home" name="Почетна" />
               <NavLink
-                location="/akva-dejon-plus/home"
+                location="/akva-dejon-plus/products"
                 name="Производи"
                 id="products"
               >

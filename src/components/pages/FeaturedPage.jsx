@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../images/akva-dejon-logo-transparent.png";
+import logo from "../../images/akva-dejon-logo-transparent.png";
 
 function FeaturedPage() {
   return (
