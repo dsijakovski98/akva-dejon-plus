@@ -10,9 +10,9 @@ function App() {
       <div className="App">
         {/* <div className="middle"></div> */}
         <Switch>
-          <Route exact path="/" component={FeaturedPage} />
+          <Route exact path="/akva-dejon-plus" component={FeaturedPage} />
           <Navbar />
-          <Route exact path="/home" component={Homepage} />
+          <Route exact path="/akva-dejon-plus/home" component={Homepage} />
         </Switch>
       </div>
     </Router>

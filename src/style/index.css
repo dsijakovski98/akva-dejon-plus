@@ -167,7 +167,6 @@ header {
 }
 
 .nav-links-active .products-list-active a {
-  border: 1px solid black;
   font-size: 1.2rem;
   font-weight: 400;
   padding: 0%;

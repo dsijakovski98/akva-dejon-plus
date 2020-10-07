@@ -9,7 +9,7 @@ function FeaturedPage() {
         <div className="logo">
           <img src={logo} alt="company logo" />
         </div>
-        <Link to="/home">Продолжи</Link>
+        <Link to="/akva-dejon-plus/home">Продолжи</Link>
       </div>
     </div>
   );

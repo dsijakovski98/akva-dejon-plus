@@ -49,31 +49,39 @@ function Navbar() {
       <div className="container">
         <div className="navigation">
           <div className="company-logo">
-            <Link to="/home">
+            <Link to="/akva-dejon-plus/home">
               <img src={logo} alt="company logo left side" />
             </Link>
           </div>
           <nav className="navbar">
             <ul className="nav-links" ref={navLinksRef}>
-              <NavLink location="/home" name="Почетна" />
-              <NavLink location="/home" name="Производи" id="products">
+              <NavLink location="/akva-dejon-plus/home" name="Почетна" />
+              <NavLink
+                location="/akva-dejon-plus/home"
+                name="Производи"
+                id="products"
+              >
                 <ul className="products-list" ref={productListRef}>
                   <li>
-                    <Link to="/products/ch">Хемиски производи</Link>
+                    <Link to="/akva-dejon-plus/products/ch">
+                      Хемиски производи
+                    </Link>
                   </li>
 
                   <li>
-                    <Link to="/products/hr">Прехранбени производи</Link>
+                    <Link to="/akva-dejon-plus/products/hr">
+                      Прехранбени производи
+                    </Link>
                   </li>
                 </ul>
               </NavLink>
               <li className="nav-logo">
-                <Link to="/home">
+                <Link to="/akva-dejon-plus/home">
                   <img src={logo} alt="company logo" />
                 </Link>
               </li>
-              <NavLink location="/about" name="За нас" />
-              <NavLink location="/contact" name="Контакт" />
+              <NavLink location="/akva-dejon-plus/about" name="За нас" />
+              <NavLink location="/akva-dejon-plus/contact" name="Контакт" />
               {/* <NavLink location="/contact" name="Контакт" /> */}
             </ul>
           </nav>
