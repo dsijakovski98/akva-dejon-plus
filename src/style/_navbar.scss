@@ -62,10 +62,17 @@ header {
   .products-list {
     position: absolute;
     top: 0;
+    left: 10%;
     width: max-content;
     opacity: 0;
     pointer-events: none;
     transition: all 0.2s ease;
+
+    a {
+      font-size: 1.2rem;
+      font-weight: 400;
+      padding: 0%;
+    }
   }
 
   .products-list-active {
@@ -81,6 +88,7 @@ header {
     a {
       font-size: 1.2rem;
       font-weight: 500;
+      padding: 0%;
     }
   }
 }
@@ -91,6 +99,7 @@ header {
   }
 
   .products-list {
+    z-index: 5;
     opacity: 0;
     top: 0;
     left: 50%;
@@ -100,12 +109,20 @@ header {
     a {
       font-size: 1.2rem;
       font-weight: 400;
+      padding: 0%;
     }
   }
   .products-list-active {
     opacity: 1;
     top: 2.5em;
     pointer-events: all;
+
+    a {
+      border: 1px solid black;
+      font-size: 1.2rem;
+      font-weight: 400;
+      padding: 0%;
+    }
   }
 
   .make-room {

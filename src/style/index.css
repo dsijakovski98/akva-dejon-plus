@@ -1,3 +1,35 @@
+.feature {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feature a {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222222;
+  text-decoration: underline;
+}
+
+.logo {
+  margin: 2em auto;
+}
+
+.logo img {
+  width: 800px;
+}
+
 header {
   width: 100%;
   padding: 0.5em 0;
@@ -74,6 +106,7 @@ header {
 .nav-links .products-list {
   position: absolute;
   top: 0;
+  left: 10%;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -81,6 +114,12 @@ header {
   pointer-events: none;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+}
+
+.nav-links .products-list a {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0%;
 }
 
 .nav-links .products-list-active {
@@ -96,6 +135,7 @@ header {
 .nav-links .products-list-active a {
   font-size: 1.2rem;
   font-weight: 500;
+  padding: 0%;
 }
 
 .nav-links-active .nav-link {
@@ -104,6 +144,7 @@ header {
 }
 
 .nav-links-active .products-list {
+  z-index: 5;
   opacity: 0;
   top: 0;
   left: 50%;
@@ -116,12 +157,20 @@ header {
 .nav-links-active .products-list a {
   font-size: 1.2rem;
   font-weight: 400;
+  padding: 0%;
 }
 
 .nav-links-active .products-list-active {
   opacity: 1;
   top: 2.5em;
   pointer-events: all;
+}
+
+.nav-links-active .products-list-active a {
+  border: 1px solid black;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0%;
 }
 
 .nav-links-active .make-room {

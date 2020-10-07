@@ -1,0 +1,21 @@
+.feature {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    font-size: 2rem;
+    font-weight: 700;
+    color: $darkTxt;
+    text-decoration: underline;
+  }
+}
+
+.logo {
+  margin: 2em auto;
+  img {
+    width: 800px;
+  }
+}
