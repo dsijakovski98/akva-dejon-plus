@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/akva-dejon-plus/precache-manifest.57bd42e5bf1d3b34022614bb587b2172.js"
+  "/akva-dejon-plus/precache-manifest.d446427f4dbfb891439804efd3362169.js"
 );
 
 self.addEventListener('message', (event) => {
