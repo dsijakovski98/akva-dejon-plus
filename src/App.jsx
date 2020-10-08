@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/layout/Navbar/Navbar";
 import FeaturedPage from "./components/pages/FeaturedPage";
 import Homepage from "./components/pages/Homepage";
@@ -12,8 +12,10 @@ function App() {
     <Router>
       <div className="App">
         {/* <div className="middle"></div> */}
-        <Route exact path="/akva-dejon-plus" component={FeaturedPage} />
-        <Navbar />
+        <Switch>
+          <Route exact path="/akva-dejon-plus" component={FeaturedPage} />
+          <Navbar />
+        </Switch>
         <Route exact path="/akva-dejon-plus/home" component={Homepage} />
         <Route
           exact
