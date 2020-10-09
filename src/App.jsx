@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navbar from "./components/layout/Navbar/Navbar";
+import Navbar from "./components/layout/Navbar";
 import FeaturedPage from "./components/pages/FeaturedPage";
-import Homepage from "./components/pages/Homepage";
+import HomePage from "./components/pages/HomePage";
 import ProductsPage from "./components/pages/ProductsPage";
 import AboutPage from "./components/pages/AboutPage";
 import ContactPage from "./components/pages/ContactPage";
@@ -16,7 +16,7 @@ function App() {
           <Route exact path="/akva-dejon-plus" component={FeaturedPage} />
           <Navbar />
         </Switch>
-        <Route exact path="/akva-dejon-plus/home" component={Homepage} />
+        <Route exact path="/akva-dejon-plus/home" component={HomePage} />
         <Route
           exact
           path="/akva-dejon-plus/products"

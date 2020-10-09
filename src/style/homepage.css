@@ -1,0 +1,16 @@
+.main-blocks {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  height: 92vh;
+}
+
+.product-block {
+  height: 100%;
+  padding-top: 1em;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/*# sourceMappingURL=homepage.css.map */

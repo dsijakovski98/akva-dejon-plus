@@ -1,0 +1,83 @@
+.main-blocks {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 80vh;
+}
+
+.product-block {
+  height: 100%;
+  padding-top: 1em;
+  transition: all 0.3s ease;
+
+  img {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  &:hover {
+    transform: scaleX(1.2);
+    z-index: 12;
+  }
+
+  &:hover .child {
+    transform: scaleX(calc(1 / 1.2));
+  }
+
+  &:hover .child .bottles {
+    bottom: 0;
+  }
+}
+
+.prehranbeni {
+  background: linear-gradient(
+    -120deg,
+    rgba(237, 118, 103, 0.6) 7%,
+    rgba(221, 200, 182, 0.6) 26%,
+    rgba(228, 228, 228, 0.6) 86%
+  );
+
+  &:hover {
+    box-shadow: 5px 2px 20px 2px black;
+  }
+}
+
+.hemiski {
+  background: linear-gradient(
+    120deg,
+    rgba(103, 215, 237, 0.5) 7%,
+    rgba(182, 221, 202, 0.5) 26%,
+    rgba(228, 228, 228, 0.5) 86%
+  );
+
+  &:hover {
+    box-shadow: -5px 2px 20px 2px black;
+  }
+}
+
+.child {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.product-body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1.5em 0;
+
+  .product-title {
+    font-weight: 500;
+    // text-decoration: underline;
+  }
+}
+
+.transparent-bg {
+  background: transparent;
+}
