@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "89100a6568f50a2c273620c76cb9fb3c",
+    "revision": "81f3065ea595ba449a729aaf02a4972d",
     "url": "/akva-dejon-plus/index.html"
   },
   {
-    "revision": "e0ebe295e238dae8855c",
-    "url": "/akva-dejon-plus/static/css/main.13253961.chunk.css"
+    "revision": "a33f56947a78a7ad471f",
+    "url": "/akva-dejon-plus/static/css/main.e1cd5de0.chunk.css"
   },
   {
-    "revision": "33399e8668c3119cb7e0",
-    "url": "/akva-dejon-plus/static/js/2.a7494ab8.chunk.js"
+    "revision": "daa643e26fe63d09b14a",
+    "url": "/akva-dejon-plus/static/js/2.37d1158b.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/akva-dejon-plus/static/js/2.a7494ab8.chunk.js.LICENSE.txt"
+    "url": "/akva-dejon-plus/static/js/2.37d1158b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e0ebe295e238dae8855c",
-    "url": "/akva-dejon-plus/static/js/main.b3140713.chunk.js"
+    "revision": "a33f56947a78a7ad471f",
+    "url": "/akva-dejon-plus/static/js/main.dd0b60d4.chunk.js"
   },
   {
     "revision": "71e02427164c2a11740b",
