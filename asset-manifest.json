@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/akva-dejon-plus/static/css/main.e1cd5de0.chunk.css",
-    "main.js": "/akva-dejon-plus/static/js/main.dd0b60d4.chunk.js",
-    "main.js.map": "/akva-dejon-plus/static/js/main.dd0b60d4.chunk.js.map",
+    "main.css": "/akva-dejon-plus/static/css/main.9f2ecff6.chunk.css",
+    "main.js": "/akva-dejon-plus/static/js/main.c4f2d935.chunk.js",
+    "main.js.map": "/akva-dejon-plus/static/js/main.c4f2d935.chunk.js.map",
     "runtime-main.js": "/akva-dejon-plus/static/js/runtime-main.93553d34.js",
     "runtime-main.js.map": "/akva-dejon-plus/static/js/runtime-main.93553d34.js.map",
-    "static/js/2.37d1158b.chunk.js": "/akva-dejon-plus/static/js/2.37d1158b.chunk.js",
-    "static/js/2.37d1158b.chunk.js.map": "/akva-dejon-plus/static/js/2.37d1158b.chunk.js.map",
+    "static/js/2.03dc5e29.chunk.js": "/akva-dejon-plus/static/js/2.03dc5e29.chunk.js",
+    "static/js/2.03dc5e29.chunk.js.map": "/akva-dejon-plus/static/js/2.03dc5e29.chunk.js.map",
     "index.html": "/akva-dejon-plus/index.html",
-    "precache-manifest.5d8fde7b4f8a1a92ed55d9f622fe0267.js": "/akva-dejon-plus/precache-manifest.5d8fde7b4f8a1a92ed55d9f622fe0267.js",
+    "precache-manifest.138dcbb0930b666521c220a0db34596f.js": "/akva-dejon-plus/precache-manifest.138dcbb0930b666521c220a0db34596f.js",
     "service-worker.js": "/akva-dejon-plus/service-worker.js",
-    "static/css/main.e1cd5de0.chunk.css.map": "/akva-dejon-plus/static/css/main.e1cd5de0.chunk.css.map",
-    "static/js/2.37d1158b.chunk.js.LICENSE.txt": "/akva-dejon-plus/static/js/2.37d1158b.chunk.js.LICENSE.txt",
+    "static/css/main.9f2ecff6.chunk.css.map": "/akva-dejon-plus/static/css/main.9f2ecff6.chunk.css.map",
+    "static/js/2.03dc5e29.chunk.js.LICENSE.txt": "/akva-dejon-plus/static/js/2.03dc5e29.chunk.js.LICENSE.txt",
     "static/media/akva-dejon-logo-transparent.png": "/akva-dejon-plus/static/media/akva-dejon-logo-transparent.cfb9db0b.png",
-    "static/media/index.css": "/akva-dejon-plus/static/media/body-bg.a7b05a70.jpg"
+    "static/media/antifreeze-1.png": "/akva-dejon-plus/static/media/antifreeze-1.f6f62b0c.png",
+    "static/media/index.css": "/akva-dejon-plus/static/media/body-bg.a7b05a70.jpg",
+    "static/media/oil-bottle.png": "/akva-dejon-plus/static/media/oil-bottle.58a37ae4.png",
+    "static/media/vinegar-bottle.png": "/akva-dejon-plus/static/media/vinegar-bottle.ad50b183.png"
   },
   "entrypoints": [
     "static/js/runtime-main.93553d34.js",
-    "static/js/2.37d1158b.chunk.js",
-    "static/css/main.e1cd5de0.chunk.css",
-    "static/js/main.dd0b60d4.chunk.js"
+    "static/js/2.03dc5e29.chunk.js",
+    "static/css/main.9f2ecff6.chunk.css",
+    "static/js/main.c4f2d935.chunk.js"
   ]
 }
