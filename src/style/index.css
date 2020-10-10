@@ -32,8 +32,8 @@
 
 header {
   width: 100%;
-  padding: 0.5em 0;
   height: 20vh;
+  padding-top: 1em;
 }
 
 .subtitle {
@@ -83,25 +83,13 @@ header {
 }
 
 .nav-link {
+  width: 15%;
   text-align: center;
-  padding-top: 0%;
   margin-top: 0%;
+  padding: 0 0.3em;
+  padding-bottom: 1.5em;
+  padding-top: 0%;
   position: relative;
-}
-
-.nav-link a::after {
-  content: "";
-  display: block;
-  border-bottom: 2px solid #222222;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-}
-
-.nav-link a:hover::after {
-  -webkit-transform: scaleX(1.1);
-          transform: scaleX(1.1);
 }
 
 .nav-link a {
@@ -155,7 +143,7 @@ header {
 }
 
 .nav-links .products-list-active {
-  background: rgba(0, 13, 1, 0.7);
+  background: #222222;
   opacity: 1;
   top: 2.5em;
   pointer-events: all;
@@ -171,10 +159,14 @@ header {
   opacity: 0;
   top: 0;
   left: 50%;
-  -webkit-transform: translateX(-48%);
-          transform: translateX(-48%);
+  -webkit-transform: translateX(-46%);
+          transform: translateX(-46%);
   pointer-events: none;
   text-align: center;
+}
+
+.nav-links-active .products-list li:nth-child(1) {
+  margin-bottom: 0.5em;
 }
 
 .nav-links-active .products-list a {
@@ -261,25 +253,8 @@ header {
 
 .product-block {
   height: 100%;
-  padding-top: 1em;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-}
-
-.product-block img {
-  width: 50%;
-  margin: 0 auto;
-}
-
-.product-block:hover {
-  -webkit-transform: scaleX(1.2);
-          transform: scaleX(1.2);
-  z-index: 12;
-}
-
-.product-block:hover .child {
-  -webkit-transform: scaleX(calc(1 / 1.2));
-          transform: scaleX(calc(1 / 1.2));
 }
 
 .product-block:hover .child .bottles {
@@ -314,6 +289,23 @@ header {
   transition: all 0.3s ease;
 }
 
+.child .bottles {
+  width: 100%;
+  position: absolute;
+  bottom: -90vh;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.child .bottles img {
+  opacity: 0.9;
+  width: 150px;
+  display: inline;
+}
+
 .product-body {
   height: 100%;
   display: -webkit-box;
@@ -334,6 +326,8 @@ header {
 
 .product-body .product-title {
   font-weight: 500;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .transparent-bg {
@@ -354,7 +348,6 @@ body {
   height: 100%;
   background: url("../images/bg/body-bg.jpg") no-repeat;
   background-size: cover;
-  overflow-x: hidden;
 }
 
 img {
@@ -368,6 +361,16 @@ a {
 
 li {
   display: block;
+}
+
+#root {
+  overflow: hidden;
+  position: relative;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
 }
 
 .container {
@@ -470,6 +473,16 @@ li {
   }
   .subtitle {
     font-size: 1.8rem;
+  }
+  .main-blocks {
+    margin-top: 1em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    height: 160vh;
   }
 }
 /*# sourceMappingURL=index.css.map */

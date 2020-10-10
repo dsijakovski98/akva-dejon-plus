@@ -2,11 +2,10 @@ import React from "react";
 import { useEffect } from "react";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../images/akva-dejon-logo-transparent.png";
-import NavLink from "./NavLink";
+import logo from "../../../images/akva-dejon-logo-transparent.png";
+import NavLinks from "./NavLinks";
 
 function Navbar() {
-  const productListRef = useRef(null);
   const burgerRef = useRef(null);
   const navLinksRef = useRef(null);
 
@@ -55,36 +54,7 @@ function Navbar() {
               </Link>
             </div>
             <nav className="navbar">
-              <ul className="nav-links" ref={navLinksRef}>
-                <NavLink location="/akva-dejon-plus/home" name="Почетна" />
-                <NavLink
-                  location="/akva-dejon-plus/products"
-                  name="Производи"
-                  id="products"
-                >
-                  <ul className="products-list" ref={productListRef}>
-                    <li>
-                      <Link to="/akva-dejon-plus/products/ch">
-                        Хемиски производи
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link to="/akva-dejon-plus/products/hr">
-                        Прехранбени производи
-                      </Link>
-                    </li>
-                  </ul>
-                </NavLink>
-                <li className="nav-logo">
-                  <Link to="/akva-dejon-plus/home">
-                    <img src={logo} alt="company logo" />
-                  </Link>
-                </li>
-                <NavLink location="/akva-dejon-plus/about" name="Производи" />
-                <NavLink location="/akva-dejon-plus/contact" name="Почетна" />
-                {/* <NavLink location="/contact" name="Контакт" /> */}
-              </ul>
+              <NavLinks ref={navLinksRef}/>
             </nav>
             <div
               className="hamburger"
@@ -98,10 +68,6 @@ function Navbar() {
           </div>
         </div>
       </header>
-      {/* <h1 className="subtitle">
-        Производство на прехранбени и хемиски производи
-      </h1> */}
-      {/* <br /> */}
     </>
   );
 }

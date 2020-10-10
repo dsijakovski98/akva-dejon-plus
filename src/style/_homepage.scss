@@ -7,22 +7,7 @@
 
 .product-block {
   height: 100%;
-  padding-top: 1em;
   transition: all 0.3s ease;
-
-  img {
-    width: 50%;
-    margin: 0 auto;
-  }
-
-  &:hover {
-    transform: scaleX(1.2);
-    z-index: 12;
-  }
-
-  &:hover .child {
-    transform: scaleX(calc(1 / 1.2));
-  }
 
   &:hover .child .bottles {
     bottom: 0;
@@ -62,6 +47,21 @@
   position: relative;
   text-align: center;
   transition: all 0.3s ease;
+
+  .bottles {
+    width: 100%;
+    position: absolute;
+    bottom: -90vh;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s ease;
+
+    img {
+      opacity: 0.9;
+      width: 150px;
+      display: inline;
+    }
+  }
 }
 
 .product-body {
@@ -74,10 +74,13 @@
 
   .product-title {
     font-weight: 500;
-    // text-decoration: underline;
+    transition: all 0.3s ease;
   }
 }
 
 .transparent-bg {
+  // h1 {
+  //   color: transparent;
+  // }
   background: transparent;
 }

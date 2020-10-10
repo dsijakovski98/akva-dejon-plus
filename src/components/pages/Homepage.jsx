@@ -1,6 +1,10 @@
 import React from "react";
 import ProductBlock from "../products/ProductBlock";
 import useGetProductBlock from "../../hooks/useGetProductBlock";
+import vinegarBottle from "../../images/bottles/vinegar-bottle.png";
+import oilBottle from "../../images/bottles/oil-bottle.png";
+import antifreeze1 from "../../images/bottles/antifreeze-1.png";
+
 
 function HomePage() {
   const prehranbeni = useGetProductBlock(".prehranbeni");
@@ -28,8 +32,10 @@ function HomePage() {
         toggleBg={noBg}
         divId={"prehranbeni"}
         title={"Прехранбени"}
+        orientation={"left"}
+        images={[oilBottle, vinegarBottle]}
       />
-      <ProductBlock toggleBg={noBg} divId={"hemiski"} title={"Хемиски"} />
+      <ProductBlock toggleBg={noBg} divId={"hemiski"} title={"Хемиски"} orientation={"right"} images={[antifreeze1, antifreeze1]} />
     </div>
   );
 }
